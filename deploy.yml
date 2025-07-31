@@ -35,4 +35,4 @@ jobs:
     # Step 5: Deploy the app to Azure Web App
     - name: Deploy to Azure Web App
       run: |
-        az webapp up --name pyweb --resource-group pyweb_group --plan ASP-MAPTapigroupad16-a782 --sku B1 --runtime "PYTHON|3.9" --os-type Linux
+        az webapp up --name pyapi --resource-group pyapi --plan ASP-MAPTapigroupad16-a782 --sku B1 --runtime "PYTHON|3.9" --os-type Linux
